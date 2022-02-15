@@ -3,6 +3,8 @@
 *::after {
     box-sizing: border-box;
     outline: 2px solid red;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -12,9 +14,24 @@ body {
     flex: 1;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
+.containers {
+    padding: 50px;
+}
+
 .first {
     background-color: #1f2937;
     color: #fff;
+}
+
+.row {
+    width: 950px;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 /*Navbar style*/
@@ -23,8 +40,9 @@ body {
     justify-content: space-between;
 }
 
-.navbar ul {
+.right-links {
     display: flex;
+    align-items: center;
     list-style-type: none;
     padding: 0;
     gap: 40px;
@@ -39,4 +57,48 @@ body {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+/*Hero text and image*/
+
+.two-columns {
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    padding: 80px 0 50px;
+    gap: 10px;
+    
+}
+
+.hero-image {
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    margin-left: auto;
+    max-width: 50%;
+}
+
+.text-hero {
+    max-width: 45%;
+}
+
+.text-hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.text-hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 20px;
+}
+
+.bttn {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bolder;
+    border-radius: 12px;
+    font-size: 18px;
+    padding: 8px 22px;
+    margin-top: 20px;
 }
