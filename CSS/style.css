@@ -2,5 +2,41 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    outline: 2px solid red;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.first {
+    background-color: #1f2937;
+    color: #fff;
+}
+
+/*Navbar style*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 40px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
