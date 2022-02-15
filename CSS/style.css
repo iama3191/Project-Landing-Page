@@ -28,9 +28,10 @@ img {
     color: #fff;
 }
 
+
 .row {
     width: 950px;
-    max-width: 80%;
+    max-width: 95%;
     margin: 0 auto;
 }
 
@@ -102,3 +103,48 @@ img {
     padding: 8px 22px;
     margin-top: 20px;
 }
+
+/*Second container*/
+.second {
+    display: flex;
+    flex-direction: column;
+}
+
+.second h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 950px;
+    max-width: 90%;
+    margin: 60px auto 20px;
+    padding: 40px 30px;
+    
+}
+
+.cards {
+    max-width: 150px;
+    margin: 30px;
+}
+
+.cards img {
+    border: 2px solid#3882f6;
+    width: 150px; /*I don't need to add width and height*/
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.cards p {
+    text-align: center;
+}
+
+
