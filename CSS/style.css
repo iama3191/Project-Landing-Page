@@ -152,7 +152,7 @@ img {
     width:950px;
     max-width: 90%;
     margin: 0 auto;
-    padding: 40px;
+    padding: 40px 80px;
 }
 
 .main-quote {
@@ -169,3 +169,46 @@ img {
     font-weight: bold;
 }
 
+/* CALL TO ACTION CONTAINER*/
+
+.fourth {
+    padding: 50px;
+}
+
+.cll-to-action {
+    margin: 40px auto;
+    padding: 40px 0;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 950px;
+    max-width: 90%;
+    border-radius: 10px;
+}
+
+.main-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px; 
+    padding: 20px 100px; 
+
+}
+
+.action-text {
+    flex: 1 0;
+}
+
+
+.action-text>h3 {
+    font-size: 22px;
+}
+
+.action-text p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.action-button .bttn {
+    border: 2px solid #e5e7eb;  
+    margin-top: auto;  
+}
