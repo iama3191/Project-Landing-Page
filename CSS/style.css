@@ -124,7 +124,7 @@ img {
     width: 950px;
     max-width: 90%;
     margin: 60px auto 20px;
-    padding: 40px 30px;
+    padding: 40px 30px 20px;
     
 }
 
@@ -141,10 +141,14 @@ img {
     margin-bottom: 20px;
 }
 
-
-
 .cards p {
     text-align: center;
+}
+
+/*Quote section*/
+
+.third {
+    background-color: #e5e7eb;
 }
 
 
