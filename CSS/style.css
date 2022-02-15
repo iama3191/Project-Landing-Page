@@ -136,7 +136,7 @@ img {
 .cards img {
     border: 2px solid#3882f6;
     width: 150px; /*I don't need to add width and height*/
-    height: 150px;
+    height: 350px;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -149,6 +149,27 @@ img {
 
 .third {
     background-color: #e5e7eb;
+    padding: 80px 50px;
+    color: #1f2937;
 }
 
+.quote {
+    width:950px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.main-quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    
+}
+
+.author-signature {
+    text-align: right;
+    font-size: 28px;
+    margin-top: 20px;
+}
 
